@@ -1,0 +1,19 @@
+.title {
+    display: block;
+    width: 800px
+}
+
+.desk, .graphic, .person {
+    display: inline;
+    width: 150px;
+    border-radius: 200px;
+    padding: 0px;
+    border: 10px solid #808080;
+    margin: 20px;
+    box-sizing: border-box;
+    
+}
+
+fieldset {
+    box-sizing: border-box;
+}
