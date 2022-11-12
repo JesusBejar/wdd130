@@ -296,6 +296,14 @@ button {
     color: black;
     font-weight: 600;
     margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.RAFT {
+    border: 10px solid #DDA15E;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #dda15e;
+    /* box-shadow: 5px 5px 10px #DDA15E; */
 }
 
 
