@@ -225,6 +225,7 @@ body {
 .contact-box {
     background-color: #DDA15E;
     display: flex;
+    border: 20px;
 }
 
 .contact-left {
