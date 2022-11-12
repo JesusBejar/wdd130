@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us!</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
@@ -15,11 +16,58 @@
             We truly value your queries and questions! Feel free to send us a message and answer you as soon as possible :)
          </p>
          <div class="contact-box">
-             <div class = contact-left>
+             <div class = 'contact-left'>
+                <h3>Sent your request</h3>
+                            <form>
+                                <div class="input-row">
+                                    <div class="input-group">
+                                        <label for="name">Name:</label>
+                                        <input type="text" class="input-group" name="name" placeholder="John Doe"><br><br>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="phone">Phone:</label>
+                                        <input type="text" class="input-group" name="phone" placeholder="+1 000 000 000"><br><br>
+                                    </div>
+                                </div>    
+                                <div class="input-row">
+                                    <div class="input-group" >
+                                        <label for="email">Email:</label>
+                                        <input type="text" class="input-group" name="email" placeholder="johndoe@gmail.com"><br><br>
+                                    </div>
+                                    <div class="input-group" >
+                                        <label for="subject">Subject:</label>
+                                        <input type="text" class="input-group" name="subject" placeholder="Important Message"><br><br>
+                                    </div>
+                                </div>
 
+                                    <div class="input-group" >
+                                        <label for="message"> Message:</label>
+                                        <textarea name="" id="" cols="30" rows="5" placeholder="Your message"></textarea>
+                                        <!-- <input type="submit" value="Submit"> -->
+                                    </div>    
+                                <button type="submit"> Submit </button>
+                            </form>
+            </div>
 
-             </div>
-             <div class = contact-right>
+             <div class = 'contact-right'>
+                 <h3>Reach Us</h3>
+
+                 <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>bejarwesties@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                        <td>Phone</td>
+                        <td>+1 770 547 5310</td>
+                    </tr>
+
+                    <tr>
+                        <td>Address</td>
+                        <td>Nazareth, Israel</td>
+                    </tr>
+                 </table>
 
              </div>
          </div>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@700&display=swap');
 
 #content{
-    max-width: 1600px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -80,10 +80,13 @@ footer {
     background-color: #606C38 ;
     color: white;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; 
+    align-content: left;
+    /* This width can fill the screen */
+    width: 100%;
 }
 .home-title {
     background-color: #606C38 ;
@@ -106,6 +109,7 @@ h4 {
     padding-bottom: 15px;
 }
 footer a {
+    
     background-color: #606C38 ;
     color: white;
     text-decoration: none;
@@ -205,6 +209,94 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #DDA15E;
 }
+
+body {
+    background: white;
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 50px auto;
+
+}
+
+.contact-box {
+    background-color: #DDA15E;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px ;
+    background-color: #606C38;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 40px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.input-row, .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+}
+
+button {
+    background: white;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #1D2337;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0 px rgba(28, 0, 181, 0.3);
+}
+
+.contact-left h3 {  
+    color: black;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
