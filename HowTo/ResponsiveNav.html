@@ -1,0 +1,95 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+<style>
+    /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #FFFFFF;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: red;
+  color: #FFFFFF;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"); }
+.img2 { background-image: url("https://images.ctfassets.net/hrltx12pl8hq/a2hkMAaruSQ8haQZ4rBL9/8ff4a6f289b9ca3f4e6474f29793a74a/nature-image-for-website.jpg?fit=fill&w=480&h=320"); }
+.img3 { background-image: url("data:image/jpeg;base64,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"); }
+.img4 { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSecK9d4axE_iFsTmVEW0uyDibosfiRrA_hNg&usqp=CAU"); }
+.img5 { background-image: url("img_forest.jpg"); }
+.img6 { background-image: url("img_woods.jpg"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</body>
