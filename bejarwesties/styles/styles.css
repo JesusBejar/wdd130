@@ -303,6 +303,72 @@ button {
     /* box-shadow: 5px 5px 10px #DDA15E; */
 }
 
+/* .main p {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 50px;
+} */
+
+.champions {
+    display: flex;
+    padding-bottom: 50px;
+    align-items: top;
+    justify-content: center
+}
+
+img {
+    border: 10px solid #E63946;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #1d2337;
+}
+.championmaletext .championfemaletext{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.championmaletext {
+    padding-bottom: 30px;
+    padding-right: 80px;
+    padding-left: 20px;
+    width: 300px;
+}
+.championfemaletext {
+    padding-bottom: 30px;
+    padding-right: 80px;
+    padding-left: 20px;
+    width: 300px;
+}
+.championmaleimage {
+    margin-left: 175px;
+}
+
+.maletext {
+    width: 400px;
+}
+
+.femaletext {
+    width: 400px;
+}
+
+.nonchampions {
+    display: grid;
+    grid-template-rows: 60% 20%;
+    grid-template-columns: 20% 80%;
+    text-align: left;
+    padding-left: 175px;
+}
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+.top {
+    margin-left: 175px;
+    margin-bottom: 50px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
