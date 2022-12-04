@@ -315,7 +315,7 @@ button {
 .champions {
     display: flex;
     padding-bottom: 50px;
-    align-items: top;
+    /* align-items: top; */
     justify-content: center
 }
 
