@@ -220,12 +220,12 @@ body {
 }
 
 .contact-box {
-    background-color: #DDA15E;
     display: flex;
     margin: 20px;
 }
 
 .contact-left {
+    background-color: #E63946;
     flex-basis: 60%;
     padding: 40px 60px;
 }
@@ -233,23 +233,24 @@ body {
 .contact-right {
     flex-basis: 40%;
     padding: 40px ;
-    background-color: #606C38;
-    color: white;
+    background-color: #1D2337;
+    color: #FFFAFF;
 }
 
 h1 {
     margin-bottom: 10px;
+    padding-left: 20px;
 }
 
 .container p {
     margin-bottom: 40px;
+    padding-left: 20px;
 }
 
 .input-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    padding: 40px;
 }
 
 .input-row, .input-group {
@@ -369,6 +370,12 @@ img {
     margin-left: 175px;
     margin-bottom: 50px;
 }
+
+.contactuspic {
+    border: none;
+    box-shadow: none;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
